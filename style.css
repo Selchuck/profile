@@ -1,60 +1,92 @@
+
 body {
-background-color: #dfdfdf;
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 800;
-line-height: 1.7;
-}
-
-h2 {
-  color: #8f1d14
-}
-
-a:hover {
-  color: black;
-}
-
-div {
-  display: block;
-}
-
-.card-white {
-  background-color: #f4f3f3;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 8px;
-  margin: 20px 0px;
+  background-image: url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  font-family: 'Open Sans';
+  color: rgb(100, 100, 100);
+  font-size: 12px;
+  line-height: 20px;
   text-align: center;
+  font-family: 'Roboto';
 }
-
-.img-circle {
-  border-radius: 25%;
+h1, h2, h3, p, a {
+  font-weight: 300;
 }
-.btn {
-  background-color: #fdb44b;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
+h1 {
+  color: #016789;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin: 20px;
+}
+h2 {
+  font-size: 14px;
+  margin: 20px;
+}
+h3 {
+  font-size: 13px;
+}
+h4 {
+  color: rgb(192, 9, 30);
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+p {
+  text-align: justify;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+a:hover {
+  color: #cc8b0e;
   text-decoration: none;
 }
-.btn-blue:hover {
-  background-color: black;
-  color: white;
-}
-.list-inline {
+ul {
   list-style: none;
-  padding-left: 0px;
+  padding: 0;
 }
-
-.list-inline li {
-  display: inline;
+img {
+  max-width: 170px;
+  height: auto;
+}
+.container {
+  width: 60%;
+  margin: 30px auto;
+}
+.img-circle {
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 200px;
+  box-shadow: 1px 1px 1px rgb(200, 200, 200);
+}
+.card {
+  background: rgb(240, 240, 240, 0.85);
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.logos {
   padding: 10px;
 }
-.list-inline i {
-  font-size: 50px;
-  color: rgb(230, 230, 230);
+
+.list-inline{
+  padding-left: 0px;
 }
-.list-inline i:hover {
-  color: black;
+.list-inline li{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#page-content {
+  margin-left: 150px;
+}
+#inline-block {
+  display: inline-block;
 }
 
 @media (max-width: 960px) {
